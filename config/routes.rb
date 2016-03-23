@@ -5,8 +5,11 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
   
+  #STEVE STUFF ADDED HERE:
   root 'pages#home' #this sets this page to be the homepage - like index
-  get 'about', to: 'pages#about'  
+  get 'about', to: 'pages#about'
+  
+  resources :articles #gives us all the necessary paths for articles
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
