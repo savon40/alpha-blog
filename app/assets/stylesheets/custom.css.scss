@@ -1,2 +1,28 @@
+$navbar-default-bg: #8B0000;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {color: white;}
+ul.nav.navbar-nav li a, ul.nav.navbar-nav li.active a  {color: white;}
+ul.dropdown-menu li a {color: black !important;}
+
+.center {text-align: center;}
+.jumbotron {background: url('nwa.jpg') no-repeat 1%; background-size: cover; height: 550px;}
+.jumbotron h1 {color: #8B0000; font-weight: bolder; text-transform: uppercase; padding-top: 151px;}
+
+// ALL BUTTONS:
+.btn-xlarge, .btn-xlarge:hover {background-color: #8B0000; color: white;}
+
+.footer {margin-top: 45px; padding-top: 5px; border-top: 1px dotted black; color: #8B0000;}
+footer ul {float: right; list-style: none;}
+
+// SHOW PAGE:
+.article-actions {border-top: 1px solid #eaeaea; padding-top: 20px; text-align: center;}
+.description {margin-top: 0;}
+
+//LIST VIEW PAGE:
+.right {text-align: right;}
+.no-border {border-top: none; margin-bottom: 5px;}
+.article-title {font-weight: bold; font-size: 1.5em;}
+.article-body {border-top: 1px solid #8B0000; padding-top: 15px; padding-bottom: 15px;}
