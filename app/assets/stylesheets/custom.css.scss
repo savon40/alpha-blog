@@ -8,7 +8,7 @@ ul.nav.navbar-nav li a, ul.nav.navbar-nav li.active a  {color: white;}
 ul.dropdown-menu li a {color: black !important;}
 
 .center {text-align: center;}
-.jumbotron {background: url('images/nwa.jpg') no-repeat 1%; background-size: cover; height: 550px;}
+.jumbotron {background: asset-url('nwa.jpg') no-repeat 1%; background-size: cover; height: 550px;}
 .jumbotron h1 {color: #8B0000; font-weight: bolder; text-transform: uppercase; padding-top: 151px;}
 
 // ALL BUTTONS:
