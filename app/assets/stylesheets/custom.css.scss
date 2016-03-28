@@ -3,6 +3,10 @@ $navbar-default-bg: #8B0000;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+//FLASH NOTICE AT THE TOP
+#flash_notice {background-color: #BCED91; padding: 20px 10px; color: #397D02; font-size: 16px; font-weight: bold; border-radius: 5px;}
+.alert.alert-notice a.close {padding: 20px;}
+
 #logo {color: white;}
 ul.nav.navbar-nav li a, ul.nav.navbar-nav li.active a  {color: white;}
 ul.dropdown-menu li a {color: black !important;}
