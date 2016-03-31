@@ -2,4 +2,6 @@
 <div class="article-actions no-border">
     <%= link_to 'Create new article', new_article_path, class: "btn btn-xs btn-xlarge" %>
 </div>
+<div align = 'center'><%= will_paginate %></div>
 <%= render 'article', obj: @articles %>
+<div align = 'center'><%= will_paginate %></div>
